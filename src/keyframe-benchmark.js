@@ -2,7 +2,7 @@ function now () {
   return +(new Date());
 }
 
-var TIMES_TO_ADD_KEYFRAMES = 200;
+var TIMES_TO_ADD_KEYFRAMES = 250;
 
 module.exports = function (Kapi) {
   var kapi = new Kapi();
@@ -17,7 +17,7 @@ module.exports = function (Kapi) {
 
   var endTime = now();
   var timeElapsed = endTime - startTime;
-  console.log('Finished in ' + timeElapsed + ' ms, iterated ' +
-      TIMES_TO_ADD_KEYFRAMES + ' times');
+  console.log('Finished in ' + timeElapsed + ' ms, added ' +
+      TIMES_TO_ADD_KEYFRAMES + ' keyframes');
 
 };

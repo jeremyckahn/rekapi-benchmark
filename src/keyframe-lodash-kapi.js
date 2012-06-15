@@ -10,5 +10,6 @@ r.config({
 });
 
 r(['rekapi'], function(Kapi) {
+  console.log('*** REKAPI WITH LODASH LOADED ***');
   keyframeBenchmark(Kapi);
 });
