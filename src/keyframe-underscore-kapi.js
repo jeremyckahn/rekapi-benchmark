@@ -1,4 +1,6 @@
 var r = require('../lib/r.js');
+var keyframeBenchmark = require('./keyframe-benchmark.js');
+
 r.config({
   paths: {
     shifty: '../lib/shifty',
@@ -8,7 +10,5 @@ r.config({
 });
 
 r(['rekapi'], function(Kapi) {
-  var kapi = new Kapi();
+  keyframeBenchmark(Kapi);
 });
-
-console.log('123');
