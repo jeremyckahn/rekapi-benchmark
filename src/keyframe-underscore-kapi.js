@@ -10,6 +10,6 @@ r.config({
 });
 
 r(['rekapi'], function(Kapi) {
-  console.log('*** REKAPI WITH UNDERSCORE LOADED ***');
+  console.log('\n*** REKAPI WITH UNDERSCORE LOADED ***');
   keyframeBenchmark(Kapi);
 });
