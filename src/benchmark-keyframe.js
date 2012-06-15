@@ -10,3 +10,5 @@ r.config({
 r(['rekapi'], function(Kapi) {
   var kapi = new Kapi();
 });
+
+console.log('123');
