@@ -19,5 +19,4 @@ module.exports = function (Kapi) {
   var timeElapsed = endTime - startTime;
   console.log('Finished in ' + timeElapsed + ' ms, added ' +
       TIMES_TO_ADD_KEYFRAMES + ' keyframes');
-
 };
